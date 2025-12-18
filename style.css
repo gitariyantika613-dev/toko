@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FBEFEF;
+  color: #333;
+}
+
+/* ================= HEADER ================= */
+.header {
+  background: #e84393;
+  padding: 20px 0;
+}
+
+.header-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo-area img {
+  width: 130px;
+}
+
+/* BRAND */
+.brand h1 {
+  color: white;
+}
+
+.brand p {
+  color: #ffe6f0;
+  font-size: 14px;
+}
+
+/* NAV MENU KANAN */
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu ul li {
+  margin-left: 15px;
+}
+
+.nav-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ================= SECTION ================= */
+section {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #FEEAC9;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #e84393;
+  margin-bottom: 15px;
+}
+
+/* ================= PRODUK ================= */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #F5AFAF;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.price {
+  color: #e67e22;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* ================= PROMO ================= */
+.promo {
+  text-align: center;
+  border: 2px dashed #e84393;
+}
+
+/* ================= KONTAK & ALAMAT ================= */
+.info-container {
+  display: flex;
+  gap: 40px;
+}
+
+.kontak,
+.alamat {
+  width: 50%;
+}
+
+/* RATING */
+.rating {
+  margin-top: 15px;
+}
+
+.rating .star {
+  color: #f1c40f;
+  font-size: 20px;
+  display: block;
+  margin: 5px 0;
+}
+
+/* BUTTON */
+button {
+  background: #e84393;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d63384;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background: #e84393;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
